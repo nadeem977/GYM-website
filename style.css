@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#header{
+    height: 80vh;
+    background-image: url(./assets/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar .nav-link{
+    color: white;
+    float: right;
+}
+.navbar-brand{
+    width: 150px;
+    margin-left: 30px;
+}
+.navbar-toggler{
+    border:none;
+    outline: none;
+    box-shadow: none;
+}
+.navbar-toggler .bi{
+color: white;
+font-size: 25px;
+}
+button:focus:not(:focus-visible) {
+    outline: 0;
+    box-shadow: none;
+}
+.welcome{
+    padding: 50px 100px;
+    margin-top: -140px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+}
+.welcome h1{
+    color:#333 ;
+} 
+.welcome .home-btn{
+   margin-top: 10px;
+   padding:10px 30px;
+   border-radius: 30px;
+   color: #fff;
+   background-color: #013f7e;
+} 
+.btn :focus{
+    box-shadow: none;
+}
+#about{
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+#about .col-md-6{
+    padding:20px 10px;
+}
+
+#about h3{
+    margin: 20px auto;
+}
+iframe{
+    border-radius:20px;
+}
+#services{
+    background-color: #efefef;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#services .col-md-4{
+   padding: 20px;
+}
+
+#services .col-md-4 h4{
+    padding: 5px;
+ }
+ #services .col-md-4 img{
+    width: 50px;
+ }
+ #services .col-md-4 p{
+   padding: 5px;
+   align-items: justify; 
+ }
+
+#features{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-position: center;
+    background-size: cover !important;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./assets/feature-background.jpg);
+    background-attachment: fixed;
+    color: white;
+}
+
+#features .col-md-6{
+    padding: 20px;
+}
+
+.feature-box{
+    height: 120px;
+}
+.feature-box .feature-left{
+    height: 120px;
+    width: 20%;
+    float: left;
+}
+.feature-box .feature-left .bi{
+    padding-top: 13px;
+    font-size: 50px;
+}
+
+.feature-box .feature-right{
+    height: 120px;
+    width: 80%;
+    float: left;
+}
+.feature-box .feature-right h4{
+ padding-top: 10px;
+ padding-left: 15px;
+ text-align: left;
+}
+.feature-box .feature-right p{
+    padding-left: 15px;
+    text-align: left;
+   }
+#testimonial{
+    padding: 100px 0px 100px 0px ;
+   }
+
+   #testimonial .col-md-4{
+    padding:10px 30px;
+   }
+
+   #testimonial .col-md-4 img{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    margin-left: -30px;
+    margin-top: -40px;
+    border: 1px solid #fff;
+    margin-bottom: 30px;
+   }
+
+.review{
+    padding: 10px 10px 10px 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+}
+.review .bi{
+    color: #013f7e;
+}
+#testimonial h1{
+    margin-bottom: 20px;
+    color: #013f7e;
+}
+#testimonial p{
+ padding-bottom: 20px;
+}#testimonial .midal{
+margin-top: -30px;
+margin-bottom: -30px;
+}
+.subscribe{
+    padding: 50px 20px;
+    background-color: #013f7e;
+    position: relative;
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
+    color:#fff;
+    margin-bottom: -130px;
+}
+
+.subscribe .input-group{
+border-radius: 30px;
+background-color: #fff;
+max-width: 500px;
+margin: 10px auto;
+padding: 5px;
+}
+.subscribe .input-group .form-control{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.subscribe .input-group .input-group-text{
+    background: linear-gradient(to right ,#1c03b5,#5c8bef);
+    color: white;
+    border-radius: 30px;
+}
+#footer{
+    margin-top: 80px;
+    padding:3rem 2rem 0rem 2rem;
+    background-color: #efefef;
+    color: #013f7e;
+}
+.footer-logo{
+    width: 150px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+footer h1{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+footer .col-md-3 p{
+    margin: 5px;
+    gap: 10px;
+    cursor: pointer;
+}
+footer .col-md-3 p .bi{
+    padding-right: 20px;
+    font-size: 15px;
+}
+footer .col-md-3 .city{
+    padding-left: 30px;
+}
+.copyright{
+    text-align: center;
+}
+.copyright .bi{
+    color: red;
+}
